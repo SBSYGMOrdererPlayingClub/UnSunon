@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <Switch android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="启动斩人科技反制服务" android:id="@+id/switch_"></Switch>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="拦截IP："></TextView>
+    <EditText
+        android:layout_width="900dp"
+        android:layout_height="wrap_content" android:id="@+id/ip"></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定" android:id="@+id/ok_btn"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="导出CA证书(HTTPS抓包需要)"
+        android:id="@+id/install_cert_btn"
+        android:layout_marginTop="16dp"></Button>
+    </LinearLayout>
